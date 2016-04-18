@@ -162,16 +162,16 @@ h2 {
     transform: translateY(-2000px); } }
 -.opl {
  -  position: relative;
- -  top: -20px;
- -  left: -20px;
+ -  top: 0px;
+ -  left: 0px;
  -  z-index: 99999;
  -  transition: 0.3s opacity ease; }
  -  .opl:hover {
  -    opacity: 0.8; }
  -
  -.opl a {
- -  width: 0px;
- -  height: 0px;
+ -  width: 1px;
+ -  height: 1px;
  -  text-indent: -9999px;
  -  display: block;
  -  background: url("https://s3.amazonaws.com/onepagelove/one-page-love-award-left.png") no-repeat; }

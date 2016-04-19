@@ -280,16 +280,16 @@ h2 {
     font-size: 12px; }
   .info__button:hover, .info__button--dark:hover {
     color: white;
-    background-color: #1560FB; }
+    background-color: #a9a9a9; }
   @media (min-width: 768px) {
     .info__button, .info__button--dark {
       margin: 40px auto auto auto; } }
   .info__button--dark {
     color: white;
-    background: #1560FB;
+    background: #a9a9a9;
     border-color: white; }
     .info__button--dark:hover {
-      color: #1560FB;
+      color: #a9a9a9;
       background-color: white; }
     @media (min-width: 768px) {
       .info__button--dark {

@@ -293,7 +293,7 @@ h2 {
     left: 0;
     top: 0;
     height: 100%;
-    width: 50%;
+    width: 35%;
   }
 }
 
@@ -309,7 +309,7 @@ h2 {
     top: 0;
     right: 0;
     height: 100%;
-    width: 45%;
+    width: 60%;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     overflow-x: hidden;

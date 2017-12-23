@@ -1,4 +1,4 @@
-highlighter: true
+highlighter: rouge
 permalink: /blog/:year/:month/:day/:title/
 exclude: [README.markdown, refresh-post, push-site-live, make-post.sh, vendor, 'Gemfile.lock', 'Gemfile']
 markdown: rdiscount

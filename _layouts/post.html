@@ -1,0 +1,33 @@
+---
+layout: base
+blog: selected
+og_type: article
+---
+<article id="main">
+    <header>
+        <h2>Blogs</h2>
+        <p>This is where I talk about my thoughts & personal experience<br />
+         Thanks for reading</p> 
+    </header>
+            
+    <section class="wrapper style5">
+        <div class="inner">
+         <div id="content" class="grid grid-16">
+            <div id="content-padding">
+<a href="/blog/archive/">&laquo; Back to posts</a>
+<h2 style="margin: 1em 0 1em 0; text-align: center;">{{ page.title }}</h2>
+<div class="faded" style="font-size:16px; margin-bottom:5px;">{{ page.date | date_to_string }}</div>
+<div style="margin-top:1.5em">
+	<div id="post">
+		{{ content }}
+	</div>
+</div>
+
+{% assign template_type = 'post' %}
+
+{% include disqus.html %}
+        </div>
+        </div>
+        </div>
+  </section>
+</article>

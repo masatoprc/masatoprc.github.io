@@ -1,0 +1,260 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,section,summary,time,mark,audio,video{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,
+
+section{display:block}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+fieldset,img{
+	border:0}
+
+address,caption,cite,dfn,th,var{
+	font-style:normal;
+	font-weight:normal
+	}
+
+caption,th{
+	text-align:left
+	}
+
+ul, dir{
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	/*font-weight:normal*/
+	}
+q:before,q:after
+{
+	content:''
+}
+
+abbr,acronym{
+	border:0
+	}
+
+html{
+	overflow-y:scroll;
+	font-size:100%;
+	font-family:"Open sans",sans-serif;
+	line-height:1.5;
+	color:#333}
+
+body{
+	width:940px;
+	min-height:100%;
+	padding:10px;
+	margin:0 auto}
+
+@font-face {
+      font-family: 'Open Sans';
+      font-style: normal;
+      src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v9/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+.grids{
+	margin-left:-20px;
+	overflow:hidden;
+	clear:both
+	}
+
+.grid{
+	margin:0 20px 0 0}
+
+.grids .grid{
+	margin:0 0 0 20px}
+
+.grid-16{width:940px;
+  margin: auto;}
+
+h2{
+  font-size:1.75em;
+  line-height:1}
+
+h3{
+  font-size:1.5em;
+  line-height:1.2;
+  font-variant:small-caps
+  }
+
+h4{
+  font-size:1.1em;l
+  ine-height:1.333;
+  font-weight:bold}
+
+h5,h6{
+  font-size:.85em;
+  line-height:1.5}
+
+p{
+  color: #5c5c5c;
+  font-size: 1.14rem;
+  line-height: 1.6em;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility;
+  letter-spacing: initial;
+  }
+
+#content {
+  background-color:rgba(250, 250, 250, 0);
+  min-height:400px;
+}
+
+#content-padding{
+  padding:25px}
+
+.faded{
+  color:#888888;
+  font-family: Baskerville-Italic, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size:16px;
+  text-align:center;
+}
+
+.indent{
+  padding-left:7px}
+
+.blockylist h1 {
+  margin:0px;
+  font-size:2.2em; 
+  margin-bottom:0.25em;
+  line-height:1.5;
+  text-align: center;
+  font-weight: normal;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", Open sans, sans-serif;
+  color: rgb(46, 56, 66);
+  letter-spacing: inherit;
+  text-transform: inherit
+}
+
+.blockylist h2,.blockylist h3,.blockylist h4,.blockylist h5{margin:0px}
+
+.blockylist ul{margin:10px 0px 10px 0px}
+
+.blockylist li{list-style-type:none}
+
+.blockylist ul div{margin:0px}
+
+.blockylist img{float:left;margin-right:10px;margin-top:9px}
+
+.blockylist a{text-decoration:none;display:block;color:#333333;padding:10px}
+
+.bigblockylist>ul>li{margin-bottom:10px}
+
+.bigblockylist a{min-height:110px;padding-top:0px;padding-bottom: 12px;}
+
+.bigblockylist h1{
+  padding-top:4px; 
+  text-align: left;
+}
+.bigblockylist div{padding-left:120px}
+
+.archiveblockylist>ul>li {
+  margin-bottom:10px;
+  margin-left: 40px;
+}
+
+.archiveblockylist a{min-height:65px;}
+
+.archiveblockylist a h2{padding-top:8px;font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Open sans", sans-serif; letter-spacing: inherit;}
+
+.archiveblockylist a div{padding-top:2px}
+
+.compact_list>li{padding:0px;margin:5px 0px;list-style-type:none}p{margin-bottom:1.25em}h2,h3,h4,h5{margin:1em 0 .75em 0;font-family:"Open Sans","Helvetica Neue",Arial,sans-serif}h5{margin-bottom:.5em;margin-top:.5em}td{background:white;vertical-align:middle}td a{display:block}
+
+.blockylist a:hover time span,.blockylist a:hover .faded{color:#333}
+
+#blurb{font-size:1.25em;line-height:1.2;margin-top:1em;margin-bottom:1em}
+
+#related{margin-top:30px}#post{margin-bottom:20px}
+
+hr.fancyrule{border:none;height:2px;background-color:#393939;color:#393939;margin:2em 0}
+
+#footer{padding-top:10px;text-align:center;color:#5c5c5c;clear:both}
+
+.project_thumbnail{
+  width:90px;
+  height:90px;
+  border:1px solid black;
+  -moz-box-shadow:0px 0px 10px 0px #888;
+  -webkit-box-shadow:0px 0px 10px 0px #888;
+  box-shadow:0px 0px 10px 0px #888
+}
+
+pre{background-color:#EEEEEE;border-top:1px solid #CCCCCC;border-bottom:1px solid #CCCCCC;padding:1em}
+
+@media (min-width: 721px) and (max-width: 960px){body{width:700px}
+
+.grid-16{width:700px}dd{margin-left:45px}}
+@media (max-width: 720px){html{font-size:1em}body{padding:10px;width:auto;-webkit-text-size-adjust:none}h1{font-size:1.7em}
+.grid{width:auto;float:none}
+
+#content-padding{
+  padding:15px 10px}
+
+dd{
+  margin-left:25px}
+
+.contact-row{
+  height:auto
+  }
+
+.blockylist div{
+  padding:0px
+  }
+
+.blockylist img{height:65px;width:65px}
+
+.project_thumbnail{height:75px;width:75px}}
+
+@media print{*{background:#fff;color:#000;text-shadow:none !important}
+
+body{width:75%;margin:0 auto;font-size:0.75em}
+
+.grid{width:auto;float:none;clear:both}
+
+img{max-width:100%;height:auto}
+
+table{page-break-before:always}
+
+.accessibility{position:static}
+
+a:link:after,a:visited:after,a:link::after,a:visited::after{content:" (" attr(href) ")";font-size:smaller}a[href^="/"]:after,a[href^="/"]::after{content:" (http://www.sallysally.ca" attr(href) ")";font-size:smaller}object:after,object::after{content:"Flash/video content. Head to http://www.sallysally.ca/ to view this content.";display:block;font-weight:bold;margin-bottom:1.5em}}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+
+code{font-size:12px;font-family:Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;background-color:#EEEEEE;padding:4px}
+pre code{padding:0}
+
+.super{vertical-align:super;font-size:75%;font-family:Calibri,"Helvetica Neue",Arial,sans-serif}
+
+.symmetrical_line_height pre{line-height:12px}
+
+.header_link{color:black}
+
+#post img{display:block;margin-left:auto;margin-right:auto}
+
+.contact-row{height:90px}
+
+.code-header{margin-bottom:.5em}
+
+hr.fancyrule {
+    border: none;
+    height: 2px;
+    background-color: #cccccc;
+    color: #cccccc;
+    margin: 60px 0px 40px 0px;
+}

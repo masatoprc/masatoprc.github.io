@@ -227,7 +227,7 @@ table{page-break-before:always}
 
 .accessibility{position:static}
 
-a:link:after,a:visited:after,a:link::after,a:visited::after{content:" (" attr(href) ")";font-size:smaller}a[href^="/"]:after,a[href^="/"]::after{content:" (http://www.sallysally.ca" attr(href) ")";font-size:smaller}object:after,object::after{content:"Flash/video content. Head to http://www.sallysally.ca/ to view this content.";display:block;font-weight:bold;margin-bottom:1.5em}}
+a:link:after,a:visited:after,a:link::after,a:visited::after{content:" (" attr(href) ")";font-size:smaller}a[href^="/"]:after,a[href^="/"]::after{content:" (http://masatoprc.github.io/" attr(href) ")";font-size:smaller}object:after,object::after{content:"Flash/video content. Head to http://masatoprc.github.io/ to view this content.";display:block;font-weight:bold;margin-bottom:1.5em}}
 
 html, body {
 	height: 100%;
